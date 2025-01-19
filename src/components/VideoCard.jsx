@@ -73,7 +73,7 @@ const VideoCard = ({
                   WebkitBoxOrient: "vertical",
                 }}
               >
-                {snippet?.title.slice(0, 60) || demoVideoTitle.slice(0, 60)}
+                {snippet?.title?.slice(0, 60) || demoVideoTitle?.slice(0, 60)}
               </Typography>
               <Typography variant="subtitle2" color="gray">
                 {snippet?.channelTitle || demoChannelTitle}
@@ -81,7 +81,6 @@ const VideoCard = ({
                   sx={{ fontSize: "12px", color: "gray", ml: "5px" }}
                 />
               </Typography>
-              {console.log(snippet)}
             </Grid>
           </Grid>
         </CardContent>

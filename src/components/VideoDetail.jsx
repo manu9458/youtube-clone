@@ -92,7 +92,7 @@ const VideoDetail = () => {
           <Typography variant="h4" sx={{ paddingLeft: "14px" }}>
             Comments...
           </Typography>
-          {comments.map((comment, key) => {
+          {comments?.map((comment, key) => {
             return (
               <List
                 sx={{
