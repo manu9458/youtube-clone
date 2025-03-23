@@ -1,5 +1,5 @@
 import React from 'react';
-
+//Adding channel card
 import { Link } from 'react-router-dom';
 
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
